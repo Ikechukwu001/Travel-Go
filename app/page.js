@@ -1,9 +1,9 @@
-import Navbar from "@/components/Navbar"
-import Hero from "@/components/Hero"
-import Offers from "@/components/Offers"
-import About from "@/components/About"
-import Contact from "@/components/Contact"
-import Footer from "@/components/Footer"
+import Navbar from "@/Components/Navbar"
+import Hero from "@/Components/Hero"
+import Offers from "@/Components/Offers"
+import About from "@/Components/About"
+import Contact from "@/Components/Contact"
+import Footer from "@/Components/Footer"
 
 export default function Home() {
   return (
