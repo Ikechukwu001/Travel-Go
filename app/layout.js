@@ -4,30 +4,31 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Opay Inspired | Smart Finance UI",
+  title: "II Pay | Smart Finance & Payments UI",
   description:
-    "Experience a sleek, mobile-first fintech interface inspired by modern wallet apps. Send money, pay bills, and explore smart financial tools.",
+    "A clean, mobile-first fintech dashboard inspired by Opay — designed for smooth transactions, service payments, and modern wallet management.",
   keywords: [
     "fintech",
     "mobile wallet",
     "payments",
     "digital banking",
-    "Opay UI clone",
-    "react fintech",
-    "nextjs finance app",
+    "Opay UI",
+    "finance app",
+    "nextjs fintech",
+    "react wallet app",
   ],
   openGraph: {
-    title: "Opay Inspired | Smart Finance UI",
+    title: "II Pay | Smart Finance & Payments UI",
     description:
-      "A modern, responsive finance dashboard inspired by Opay’s clean and intuitive wallet design.",
-    url: "https://opay-inspired-demo.vercel.app", // replace with your actual domain
-    siteName: "Opay Inspired UI",
+      "Experience a responsive fintech dashboard built with Next.js — featuring wallet balance, services, and transactions.",
+    url: "https://ii-pay.vercel.app", // your project domain
+    siteName: "II Pay UI",
     images: [
       {
-        url: "/opay-preview.jpeg", // place this image in /public
+        url: "/ii-pay.png", // place this in /public
         width: 1200,
         height: 630,
-        alt: "Opay-inspired fintech dashboard preview",
+        alt: "II Pay fintech dashboard preview",
       },
     ],
     locale: "en_US",
@@ -35,15 +36,15 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Opay Inspired | Smart Finance UI",
+    title: "II Pay | Smart Finance & Payments UI",
     description:
-      "A Next.js fintech interface showcasing wallet balance, transactions, and services — built for study and innovation.",
-    images: ["/opay-preview.jpeg"],
-    creator: "@yourhandle", // optional
+      "A Next.js-based fintech UI demonstrating wallet balance, bill payments, and service features for learning and development.",
+    images: ["/ii-pay.png"],
+    creator: "@Ikechukwu",
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
