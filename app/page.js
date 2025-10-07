@@ -1,19 +1,20 @@
-import Navbar from "@/Components/Navbar"
-import Hero from "@/Components/Hero"
-import Offers from "@/Components/Offers"
-import About from "@/Components/About"
-import Contact from "@/Components/Contact"
-import Footer from "@/Components/Footer"
+import WalletCard from '@/Components/WalletCard';
+import QuickActions from '@/Components/QuickActions';
+import ServicesGrid from '@/Components/ServicesGrid';
+import TransactionsList from '@/Components/TransactionsList';
+import BottomNav from '@/Components/BottomNav';
 
-export default function Home() {
-  return (
-    <main>
-      <Navbar />
-      <Hero />
-      <Offers />
-      <About />
-      <Contact />
-      <Footer />
-    </main>
-  )
+
+export default function OpayInspiredPage() {
+return (
+<div className="min-h-screen bg-gray-50 pb-20">
+<div className="p-4 space-y-6">
+<WalletCard />
+<QuickActions />
+<ServicesGrid />
+<TransactionsList />
+</div>
+<BottomNav />
+</div>
+);
 }

@@ -1,35 +1,33 @@
 import "./globals.css";
-import { Inter } from "next/font/google"
+import { Inter } from "next/font/google";
 
-const inter = Inter({ 
-  subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
-  export const metadata = {
-  title: "TravelGo | Travel Essentials & Fashion Accessories",
+export const metadata = {
+  title: "Opay Inspired | Smart Finance UI",
   description:
-    "Shop stylish fashion accessories and must-have travel essentials in one place. Get bags, outfits, and gear designed for comfort and adventure.",
+    "Experience a sleek, mobile-first fintech interface inspired by modern wallet apps. Send money, pay bills, and explore smart financial tools.",
   keywords: [
-    "travel items",
-    "travel fashion",
-    "luggage bags",
-    "travel essentials",
-    "fashion accessories",
-    "travel outfits",
-    "backpacks",
-    "holiday shopping",
+    "fintech",
+    "mobile wallet",
+    "payments",
+    "digital banking",
+    "Opay UI clone",
+    "react fintech",
+    "nextjs finance app",
   ],
   openGraph: {
-    title: "TravelGo | Travel Essentials & Fashion Accessories",
+    title: "Opay Inspired | Smart Finance UI",
     description:
-      "Discover trendy fashion and travel gear for your next adventure. Shop bags, outfits, and essentials with TravelGo.",
-    url: "https://travelgo.com", // replace with your domain
-    siteName: "TravelGo",
+      "A modern, responsive finance dashboard inspired by Opay’s clean and intuitive wallet design.",
+    url: "https://opay-inspired-demo.vercel.app", // replace with your actual domain
+    siteName: "Opay Inspired UI",
     images: [
       {
-        url: "/TravelGoHero.jpeg", // make sure this image is inside /public
+        url: "/opay-preview.jpeg", // place this image in /public
         width: 1200,
         height: 630,
-        alt: "Stylish travel essentials and fashion accessories",
+        alt: "Opay-inspired fintech dashboard preview",
       },
     ],
     locale: "en_US",
@@ -37,10 +35,10 @@ const inter = Inter({
   },
   twitter: {
     card: "summary_large_image",
-    title: "TravelGo | Travel Essentials & Fashion Accessories",
+    title: "Opay Inspired | Smart Finance UI",
     description:
-      "Shop stylish travel essentials and fashion accessories for your next journey.",
-    images: ["/TravelGoHero.jpeg"],
+      "A Next.js fintech interface showcasing wallet balance, transactions, and services — built for study and innovation.",
+    images: ["/opay-preview.jpeg"],
     creator: "@yourhandle", // optional
   },
   icons: {
@@ -49,12 +47,12 @@ const inter = Inter({
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
-}
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} bg-gray-50 text-gray-900`}>{children}</body>
     </html>
   );
 }
