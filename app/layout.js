@@ -16,7 +16,7 @@ const sans = Inter({
 export const metadata = {
   title: "The Nero's Family | 15 Years of Love",
   description:
-    "Celebrating 25 beautiful years of love, family, memories, and togetherness.",
+    "Celebrating 15 beautiful years of love, family, memories, and togetherness.",
 };
 
 export default function RootLayout({ children }) {

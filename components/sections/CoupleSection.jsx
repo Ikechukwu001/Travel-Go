@@ -51,7 +51,7 @@ export default function CoupleSection() {
               {/* Husband Image */}
 
               <img
-                src="/image/Couple.jpeg"
+                src="/image/Husband.png"
                 alt="Samuel Nero"
                 className="absolute inset-0 h-full w-full object-cover"
               />
@@ -86,7 +86,7 @@ export default function CoupleSection() {
               {/* Wife Image */}
 
               <img
-                src="/image/Couple.jpeg"
+                src="/image/Wife.jpeg"
                 alt="Gift Nero"
                 className="absolute inset-0 h-full w-full object-cover"
               />

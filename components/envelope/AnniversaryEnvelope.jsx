@@ -111,7 +111,7 @@ export default function AnniversaryEnvelope({ onOpen }) {
                 </p>
 
                 <p className="mt-2 font-serif text-5xl text-[#651f2b] sm:text-6xl">
-                  25
+                  15
                 </p>
 
                 <p className="mt-1 text-[8px] uppercase tracking-[0.45em] text-[#8b7770]">
@@ -119,10 +119,6 @@ export default function AnniversaryEnvelope({ onOpen }) {
                 </p>
 
                 <div className="mx-auto mt-7 h-px w-10 bg-[#c8a96b]" />
-
-                <p className="mt-6 text-[8px] uppercase tracking-[0.35em] text-[#8b7770]">
-                  2001 — 2026
-                </p>
 
               </div>
             </div>
@@ -257,7 +253,7 @@ export default function AnniversaryEnvelope({ onOpen }) {
                 className="absolute left-1/2 top-1/2 z-50 flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-[#e4d1a5]/70 bg-[#651f2b] text-[#e4d1a5] shadow-xl"
               >
                 <span className="font-serif text-xl">
-                  A
+                  N
                 </span>
               </motion.div>
 
