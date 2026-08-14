@@ -93,9 +93,6 @@ export default function ClosingSection() {
             15 Years of Love
           </p>
 
-          <p className="mt-2 text-[9px] uppercase tracking-[0.3em] text-[#f7f2ea]/40">
-            2001 — 2026
-          </p>
         </motion.div>
 
         {/* Closing message */}

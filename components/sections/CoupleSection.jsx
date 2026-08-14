@@ -47,20 +47,19 @@ export default function CoupleSection() {
             transition={{ duration: 1 }}
           >
             <div className="relative aspect-[4/5] overflow-hidden bg-[#651f2b]">
-              
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <p className="font-serif text-4xl text-[#e4d1a5]">
-                    Samuel
-                  </p>
 
-                  <p className="mt-3 text-[9px] uppercase tracking-[0.4em] text-[#e4d1a5]/60">
-                    Photo Placeholder
-                  </p>
-                </div>
-              </div>
+              {/* Husband Image */}
 
-              <div className="absolute inset-5 border border-[#e4d1a5]/30" />
+              <img
+                src="/image/Couple.jpeg"
+                alt="Samuel Nero"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+
+              {/* Decorative border */}
+
+              <div className="pointer-events-none absolute inset-5 border border-[#e4d1a5]/30" />
+
             </div>
 
             <div className="mt-6">
@@ -83,20 +82,19 @@ export default function CoupleSection() {
             transition={{ duration: 1 }}
           >
             <div className="relative aspect-[4/5] overflow-hidden bg-[#711f2e]">
-              
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <p className="font-serif text-4xl text-[#e4d1a5]">
-                    Gift
-                  </p>
 
-                  <p className="mt-3 text-[9px] uppercase tracking-[0.4em] text-[#e4d1a5]/60">
-                    Photo Placeholder
-                  </p>
-                </div>
-              </div>
+              {/* Wife Image */}
 
-              <div className="absolute inset-5 border border-[#e4d1a5]/30" />
+              <img
+                src="/image/Couple.jpeg"
+                alt="Gift Nero"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+
+              {/* Decorative border */}
+
+              <div className="pointer-events-none absolute inset-5 border border-[#e4d1a5]/30" />
+
             </div>
 
             <div className="mt-6">

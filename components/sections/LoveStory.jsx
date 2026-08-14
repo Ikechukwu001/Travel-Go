@@ -46,10 +46,6 @@ export default function LoveStory() {
               <p className="font-serif text-4xl italic">
                 Their Beginning
               </p>
-
-              <p className="mt-3 text-[9px] uppercase tracking-[0.4em] opacity-70">
-                Story Photograph Placeholder
-              </p>
             </div>
           </div>
 

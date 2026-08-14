@@ -8,9 +8,7 @@ import AnniversaryEnvelope from "@/components/envelope/AnniversaryEnvelope";
 import FamilyHero from "@/components/sections/FamilyHero";
 import CoupleSection from "@/components/sections/CoupleSection";
 import LoveStory from "@/components/sections/LoveStory";
-import Timeline from "@/components/sections/Timeline";
 import Gallery from "@/components/sections/Gallery";
-import FamilySection from "@/components/sections/FamilySection";
 import CelebrationDetails from "@/components/sections/CelebrationDetails";
 import ClosingSection from "@/components/sections/ClosingSection";
 
@@ -164,14 +162,9 @@ export default function AnniversaryExperience() {
 
             <LoveStory />
 
-            <Timeline />
-
             <Gallery />
 
-            <FamilySection />
-
             <CelebrationDetails />
-
 
             <ClosingSection />
 

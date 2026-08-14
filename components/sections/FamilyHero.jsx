@@ -68,7 +68,7 @@ export default function FamilyHero() {
               </p>
 
               <p className="mt-2 text-[10px] uppercase tracking-[0.4em] opacity-70">
-                Photo Placeholder
+                The Story of Samuel & Gift 
               </p>
             </div>
           </div>
